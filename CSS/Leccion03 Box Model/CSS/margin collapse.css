@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    color:#e63946;
+}
+.caja1{
+    margin:30px;
+}
+.caja2{
+    margin:20px;
+}
+
+/* margin collapse : se toma el margen del elemento superior, el mas grande. no se suman los margenes
+osea no tendriamos 50px de separacion, solo tenemos 30px de separacion. */

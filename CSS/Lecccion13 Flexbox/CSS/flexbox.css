@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px #a8dadc;
+    color: #d6306b;
+}
+div.contenedor{
+    display: flex; /*por default se agregan de izquierda a derecha*/
+    background-color: #560abd;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: row;
+    flex-wrap: wrap; Se ajustan los elementos aunque achiquemos la pantalla */
+    flex-flow: row wrap; /*dirction y luego wrap o nowrap*/
+    justify-content: center; /* carga nuestro texto donde le indiquemos, por default se muestran a la izquierda
+    space between = espacio entre, es otra propiedad importante
+    space-around espacio a los costados izq y derecho.
+    mismo espacio de lado izq e derecho.*/
+    height: 300px;
+    align-items: stretch; /* alineamos cada uno de nuestros elementos, start se refiere al inicio
+     de la parte superior de la pagina, strecht es el valor por default,se alargan todo el largo que definimos
+     para la propi. baseline se marca una linea entre los elementos y se los mantiene al mismo nivel.*/
+    align-content: center;
+
+}
+div.contenedor > p{
+    background-color: #4895ef;
+    color: #f1faee;
+    margin:20px;
+    padding:15px;
+    font-size: 1.5em;
+}

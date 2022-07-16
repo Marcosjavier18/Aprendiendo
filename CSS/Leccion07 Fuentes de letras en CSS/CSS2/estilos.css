@@ -1,0 +1,77 @@
+/*Agregar el link desde google fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sofia&family=Trocchi&display=swap');
+
+
+h1{
+    color:#ef476f;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+    font-family: 'Sofia', cursive;
+}
+
+.caja{
+    padding: 5px;
+    width:40%;
+    height: 80px;
+    border-radius: 5px;
+    color:white;
+    text-align: center;
+    margin:10px;
+    font-size: 20px;
+    float:left;
+}
+.caja.serif{
+    background-color: #5a189a;
+}
+.fuente_roboto{
+    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Times New Roman', Times, serif; /* Es la mas generica, todos los navegadores la reconocen*/
+    font-style: normal;
+    font-weight: normal; /* Ancho de nuestra fuente. */
+    font-variant: small-caps; /*La primera letra es Mayuscula, y las demas minusculas. La primera letra
+                               es un poco mas grande que el resto*/
+    font-size: 20px ; /*El valor default de un navegador es de 16px, tambien se pueden usar los pixeles*/                                                
+                            
+}
+.fuente_giorgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: normal;
+    font-size: 1.25em; /*16px/16 = 1em */
+
+}
+.caja.sans-serif{
+    background-color: #00b4d8;
+}
+.fuente_arial{
+    font-family: Arial, Helvetica, sans-serif; /*Es una fuente mas minimalista,Dicen que estas letras
+                        san-serif se leen mejor. Se recomiendan para leer.*/
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 2vw;  /* viewport = tamaño de la ventana, 
+                        vw= view width(viewport) 1vw = 1% 
+                        vh=view heigth.
+                        no responden al zoom,si hacemos zoom no se adapta. 
+                        para los demas si */
+
+}
+.fuente_verdana{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight: 100;
+
+}
+.caja.monospace{
+    background-color: #f15bb5;
+}
+.fuente_courier{
+    font-family: 'Courier New', Courier, monospace;
+}
+.caja.cursive{
+    background-color: #ff8500;
+}
+
+.fuente_lucida{
+    font-family: 'Lucida Handwriting' , cursive ;
+}

@@ -1,0 +1,27 @@
+/* pagina para ver paleta de colores: coolors.co
+pagina para characters: https://html.spec.whatwg.org/multipage/named-characters.html */
+
+
+h1{
+    color:#ef233c;
+    text-align: center;
+  /*  text-decoration:line-through dotted ; */
+}
+p{
+    color:white;
+   background-color: #90a955;
+   padding: 15px;
+   border: 10px solid #00bbf9;
+   /*margin-top: 40px;
+   margin-right: 10px
+   margin-bottom: 20px;
+   margin-left: 10px;
+   margin va en el orden de arriba , tambien puede ser:
+   margin top-bot y derecha-izquierda en pares.
+   ESTO TAMBIEN SE APLICA AL BORDE Y AL PADDING, SE MANEJAN
+   IGUAL LAS PROPIEDADES.*/
+   margin:40px 15px 20px 10px;
+   margin:auto 50px; /* sirve para aplicar las medidas a todos lados*/
+   text-align: center; /* esto sirve para centrar el texto y la caja*/
+
+}

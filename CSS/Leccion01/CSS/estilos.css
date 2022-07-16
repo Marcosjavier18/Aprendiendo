@@ -1,0 +1,19 @@
+*{ /* el asterisco es un Selector Universal, se aplica a todo*/
+    background-color: yellow;
+    color:cornflowerblue;
+}
+
+
+#titulo{
+    color:crimson;
+    text-align: center;
+}
+ 
+/* los estilos definidos en una pagina web son los de menor prioridad*/
+
+.centrar-texto{
+    text-align: center;
+}
+.texto_grande{
+    font-size: 40px;
+}

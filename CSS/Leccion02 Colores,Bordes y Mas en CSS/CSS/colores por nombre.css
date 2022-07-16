@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+.rojo{
+    background-color: firebrick;
+}
+.rosa{
+    background-color: pink;
+}
+.rojo, .rosa, .naranja , .azul, .morado{
+    color:white;
+}
+.amarillo{
+    background-color: gold;
+}
+.azul{
+    background-color: blue;
+}
+.morado{
+    background-color:blueviolet;
+}
+.naranja{
+    background-color: coral;
+}
+.verde{
+    background-color: lime;
+}

@@ -1,0 +1,19 @@
+h1{
+    color: crimson;
+    text-align: center;
+}
+div.relativo{
+    max-width: 300px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    border: 3px solid cornflowerblue;
+}
+div.absoluto{
+    position: absolute; /*Esta propiedad se usa normalmente cuando estamos trabajdno dentro de otro elemento tipo Div */
+    bottom: 20px;
+    right: 10px;
+    border: 3px solid firebrick;
+
+}

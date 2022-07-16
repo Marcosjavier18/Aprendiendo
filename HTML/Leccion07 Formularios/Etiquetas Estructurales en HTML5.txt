@@ -1,0 +1,22 @@
+Etiquetas Estructurales en HTML5
+<section> agregamos una seccion, en vez de usar un tipo <div>
+
+
+<article></article> declaramos un articulo, son elementos independientes. puede tener su propio titulo, 
+                    se pueden reutilizar para muchas paginas web o aplicaciones web
+
+
+<aside></aside>  agrega barra lateral , se ven al costado. se pueden usar para agregar informacion extra.
+ej: autor del articulo, informacion del artista, etc..
+
+<header></header> Cabecera de paginas
+<footer></footer> Pie de pagina . Ambos son reutilizables en varias paginas. Nos da el beneficio.
+con estos elementos semanticos los podemos declarar estos elementos en una pagina web. Nos da el beneficio para que los buscadores
+de paginas web que clasifique cada una de nuestras secciones. Por eso el elemento semantico, agrega un significado al elemento o
+etiqueta a html.
+
+
+<hgroup></hgroup> Sirve para agrupar varios titulos, de h1 a h6.
+
+<nav></nav> Sirve para tener una barra de navegaciones. Se pueden tener varias barras de navegaciones.
+

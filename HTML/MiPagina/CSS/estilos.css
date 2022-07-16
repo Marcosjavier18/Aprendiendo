@@ -1,0 +1,52 @@
+h1{
+    color:#6a994e;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+
+}
+
+h2{
+    color:#fca311;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+}
+
+a:link {
+    color:#fb8500;
+    /*Solo se aplica a elementos a los que todavia no dimos click*/
+    text-decoration: none; /* le sacamos el subrayado al texto */
+}
+
+a:visited{ /*link de pagina ya visitada */
+    color:#f72585;
+    text-decoration: none;
+}
+
+a:hover{ /*Cuando nos ponemos encima del link*/
+    color:#588157;
+    text-decoration: underline ;
+
+}
+
+a:active{ /*Cuando le estamos dando click a un link*/
+    color:#fed9b7;
+    text-decoration:underline ;
+
+} 
+
+p{
+  color:#fb8500;
+  background-color:#a2d2ff ;
+  padding: 15px;
+  border: 10px solid #ffafcc;
+  margin: 40px 15px;
+  margin:auto 1000x;
+  text-align: center;
+  text-decoration: solid ;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+
+}

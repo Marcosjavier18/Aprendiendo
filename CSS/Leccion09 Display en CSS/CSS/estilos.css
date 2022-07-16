@@ -1,0 +1,26 @@
+/*Las propiedades se sobreescriben de arriba hacia abajo, arriba la primera y abajo la ultima. se superponen*/
+
+h1,div,p{
+    border: 3px solid blueviolet;
+    text-align: center;
+    color: cornflowerblue;
+    padding: 10px;
+    display: block; /* block es el valor por default*/
+}
+h1{
+    display:none;
+}
+p{
+    visibility: hidden;
+}
+span{
+    display:inline;
+    border: 1px solid blue;
+}
+a{
+    display:block; /*los elementos de block ocupan toda la linea*/
+    text-align:left;
+}
+li{
+    display: inline;
+}

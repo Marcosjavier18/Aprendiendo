@@ -1,0 +1,16 @@
+body{
+    color: cornsilk;
+    /* background-color: dodgerblue;
+
+    background-image: url("/IMAGENES/fondo.png");
+    background-repeat: no-repeat; /*Por default, la imagen se repite muchas veces
+    background-position: right top ;
+    */
+    background-attachment: fixed; /*Scroll es el Default de esta propiedad.*/ 
+    background: dodgerblue url("/IMAGENES/fondo.png") no-repeat right top;
+}
+h1{
+    text-align: center;
+    background-color: dodgerblue;
+    
+}

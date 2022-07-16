@@ -1,0 +1,26 @@
+h1{
+    color:#ef476f;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da; /*1er valor = eje x, 2do= eje Y , el 3er valor es el Blur, osea difuminado*/
+    letter-spacing: 3px; /*Espacio entre caracteres*/
+    word-spacing: 3px; /* Separa palabras completas */
+    text-decoration: underline overline;
+}
+.caja{
+    padding: 10px;
+    margin:auto;
+    width:50%;
+    background-color: #219ebc;
+    border-radius: 5px;
+    color: white;
+}
+.texto{
+    text-align: justify; /*en los elementos tipo div, es comun agregar Justify al texto*/
+   /* direction: ltr; /*ltr= left to right*/ 
+   text-decoration: none; /* control + space para ver las opciones disponibles*/
+   text-indent: 30px; /*identacion del texto*/
+   line-height: 1.7 ; /* separamos las lineas de nuestros textos, 1.2 es el valor por default*/
+   white-space: normal; /*con nowrap no se envuelve el texto, se alarga para el costado eterno*/
+   text-shadow: 1px 1px 2px #ced4da;
+}

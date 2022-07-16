@@ -1,0 +1,25 @@
+
+#titulo_principal{ /* "#"  INDENTIFICADOR EN CSS  , NO SE RECOMIENDA USAR 2 VECES EL MISMO ID, POR BUENAS PRACTICAS*/
+    color:#f72585;
+    text-align: center;
+    margin:15px;
+}
+h2{
+    color:#3f37c9;
+    
+}
+p{
+    color:#457b9d;
+}
+
+.tarjeta{ /* el "." se conoce como Clase en css */
+    border: 10px solid #560bad;
+    background-color: #f1faee;
+    text-align: center;
+    margin:10px 115px;
+    padding: 15px ;
+}
+.titulo{
+    color:#f72585;
+
+}

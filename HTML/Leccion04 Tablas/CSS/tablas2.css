@@ -1,0 +1,14 @@
+table, th,td{
+    border: 1px solid  black;
+    border-collapse:collapse ; 
+   /*  border-spacing: 5px;  agrandar espacio del cuadro de la tabla, lo mas comun es tenerlo colapsado ala borde*/
+    padding: 5px; /* espacio entre cada uno de los elementos */ 
+}
+/* POR DEFECTO, TH Y TD ESTAN MAL POSICIONADOS!!! ARREGLARLOS SIEMPRE.*/
+
+td{
+    text-align: center;
+}
+th{
+    text-align: left;
+}

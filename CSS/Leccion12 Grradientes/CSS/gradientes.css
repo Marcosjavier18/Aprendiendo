@@ -1,0 +1,24 @@
+html{
+    height: auto;
+    min-height: 100%;
+}
+body{
+    /* background: linear-gradient(#f72785, #3a0ca3) */
+    /* background:linear-gradient(to right,#f72785, #3a0ca3 ); */
+    /* background: linear-gradient(to right,#24404d,#6dbff1,black); */
+    /* background: linear-gradient(to bottom right, #f72785, #3a0ca3); tiene un fondo medio diagonal, mirarlo... */
+    /* background: linear-gradient(145deg, #f72785, #3a0ca3); deg = grados */
+    background: radial-gradient(circle,#f72785, #480ad792);
+    color:  white;
+}
+h1{
+    text-align: center;
+}
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    text-align: center;
+}

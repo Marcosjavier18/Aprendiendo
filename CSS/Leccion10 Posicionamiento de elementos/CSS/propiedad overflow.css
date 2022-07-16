@@ -1,0 +1,20 @@
+/* cuando tenemos un elemento de tipo div el contenido que agregamos puede ser mas grande que el 
+contenedor aca ocurre el concepto de overflow, osea que el contenido se sale del contenedor que hemos especificado*/
+h1{
+    color: crimson;
+    text-align: center;
+}
+
+div.contenedor{
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 100px;
+    margin: auto;
+/* si no especificamos nada, por defecto es: */
+    /*overflow: visible; esta es la prop. por default */
+/*    overflow: hidden;  todo lo que se sale de nuestro elemento div sed va a ocultar,
+    se recorta todo el texto que no cabe. es importante! */
+/*    overflow: scroll; todo el texto que sale, se agrega una barra de scroll */
+/*    overflow:auto; solo se pone la barra de scroll en caso necesario. */
+    overflow-x: auto; /*las mismas que las de arriba.*/
+}

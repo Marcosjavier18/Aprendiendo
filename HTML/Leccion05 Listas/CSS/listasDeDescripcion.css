@@ -1,0 +1,15 @@
+ol{
+    list-style: none;
+    counter-reset: contador; /* se reinicia el valor a cero en cada lista nueva*/
+}
+ol li{
+    counter-increment: contador; 
+}
+ol li::before{  /*Con li::before agregamos un texto antes que se visualize el elemento de List Item (li)*/
+    content: "Curso " counter(contador) ") ";  /* Cada vez que se agrega la palabra Curso, el incrementadaor aumenta en 1*/
+    color:coral;
+}
+
+ol li::after{
+    content: ".";
+}

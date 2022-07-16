@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    color:#e63946;
+}
+div{
+    padding: 10px 15px 15px 3px;
+    /*top,right,bottom,left*/
+    border: 15px solid #457b9d;
+    margin: 20px;
+    background-color: beige ;
+    width: 300px;
+        /* el ancho completo de nuestro elemento es 350px
+        se suma el elemento + padding(10izq+10derecha) + borde + margin
+        en el ejemplo de arriba no se toma el margen.*/
+    outline: 10px solid red;
+    /* en outline podemos aplicar cualquier estilo de Borde que vimos anteriormente*/
+    outline-offset: 15px;
+    /* Es la separacion entre borde y el elemento outline 
+    solo se puede agregar 1 valor y es color transparente siempre*/
+    
+    box-sizing: border-box; /*se mantiene en 300px por el maximo de width*/
+}
+
+
+
+

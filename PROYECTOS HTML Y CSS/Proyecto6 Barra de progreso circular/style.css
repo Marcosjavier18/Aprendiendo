@@ -1,0 +1,53 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: blueviolet;
+}
+
+
+.progressbar-container{
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+
+}
+
+.progressbar-container .outer-box{
+    border-radius: 50%;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progressbar-container .inner-box{
+    font-size: 24px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progressbar-container svg{
+    position: absolute;
+}
+
+.progressbar-container circle{
+    fill:none;
+    stroke:url(#gradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 545; /* nos permite definir la distancia entre los puntos que conforman el stroke o el trazo*/
+    stroke-dashoffset: 544;
+    animation: loading 6s linear forwards;
+}
+
+
+@keyframes loading {
+    100%{
+        stroke-dashoffset: 0;
+    }
+    
+}

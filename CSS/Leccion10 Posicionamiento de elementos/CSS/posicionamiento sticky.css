@@ -1,0 +1,19 @@
+h1{
+    color: crimson;
+    text-align: center;
+}
+
+div.sticky{
+    position: sticky; /*Se posiciona en el lugar que lo indicamos,
+    pero en cuanto este elemento sale del viewport, este elemento
+    trabaja de manera fija. comprobarlo, cuando el elemento sale de pantalla
+    se posiciona de manera fija como un elemento de tipo Fixed.
+    puede ser util para Menus de Navegacion, por mas que hagamos scroll para abajo
+    el elemento se mantiene en su lugar.
+    Si estamos trabajando con Safari,agregamos esta propiedad.
+    position: -webkit-sticky;
+    Sticky no funciona en navegador explorer.*/
+    top:0;
+    border: 3px solid firebrick;
+
+}

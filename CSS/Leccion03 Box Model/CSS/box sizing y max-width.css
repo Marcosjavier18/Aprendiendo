@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    text-align: center;
+    color:#e63946;
+}
+div{
+    padding: 10px 15px 15px 3px;
+    /*top,right,bottom,left*/
+    border: 1px solid #457b9d;
+    margin: 0px;
+    background-color: beige ;
+    max-width: 100%; /*Sirve para ajustar para dispositivos de pantalla mas pequeña, se ajusta y no aparece la barra de scroll*/
+    box-sizing: border-box; /*se mantiene en 300px por el maximo de width*/
+}

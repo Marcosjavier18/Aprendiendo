@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+}
+.rojo{
+    border: 10px solid firebrick;
+   /* background-color: firebrick; */
+
+}
+.rosa{
+    border: 10px dashed rgb(255,105,180)
+   /* background-color: pink; */
+}
+
+.amarillo{
+    border: 10px double gold;
+    /* background-color: gold; */
+}
+.azul{
+    border: 10px dotted blue;
+    /*background-color: blue;*/
+}
+.morado{
+    background-color:blueviolet;
+}
+.naranja{
+    background-color: coral;
+}
+.verde{
+    background-color: lime;
+}
+
+.rojo, .rosa, .naranja , .azul, .morado{
+    color:black;
+}

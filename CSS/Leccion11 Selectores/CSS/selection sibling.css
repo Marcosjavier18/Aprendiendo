@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    margin:auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #457b9d;
+}
+div.contenedor.descendiente p{
+    background-color: #fdffb6;
+
+}
+div.contenedor.hijo > p{ /*el simbolo de mayor que sirve para seleccionar solo a los hijos directos*/
+    background-color: #e63946;
+}
+div.contenedor.adyacente + p { /*en este ejemplo, el adyacente es el parrafo P,significa que es el que esta junto al elemento seleccionado*/
+    background-color: #caffbf;
+}
+div.contenedor.hermano ~ p { /*el signo ~ le aplica la configuracion a todos los que son de ese tipo . en este caso el tipo parrafo
+a los parrafos q esten al mismo nivel, se le aplica el mismo background*/
+background-color: #9bf6ff;
+}

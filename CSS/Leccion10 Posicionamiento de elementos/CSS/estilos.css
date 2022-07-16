@@ -1,0 +1,16 @@
+h1{
+    color: crimson;
+    text-align: center;
+}
+div{
+    position: static;
+    top:100px;
+    left:50px;
+    max-width: 400px; /* 50% de la pantalla, si usamos los % la pantalla se ajusta, usando px no se adaptan*/
+    /*max-width es igual a usar % con width. se ajustan las pantallas*/
+    border: 3px solid firebrick;
+    margin:auto; /* se centra nuestro elemento de tipo Div, osea la misma cantidad de pixeles 
+    de un lado que del otro*/
+    
+
+}

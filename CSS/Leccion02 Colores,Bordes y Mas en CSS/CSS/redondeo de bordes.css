@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+
+.solido{
+    border: solid;
+    border-width: 5px;
+    border-radius: 20px; /*entre 0 y 20 se notan los cambios*/
+    border-color:crimson;
+}
+.redondeado{
+    border:5px solid blueviolet;
+    border-radius: 20px 0px 10px 0px;
+}
