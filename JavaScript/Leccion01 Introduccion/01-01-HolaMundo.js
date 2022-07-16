@@ -1,4 +1,3 @@
-var nombre = "Ubaldo";
+var nombre = "Hola Curso desde Javascript";
 
 console.log(nombre);
-
