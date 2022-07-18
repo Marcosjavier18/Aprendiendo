@@ -1,10 +1,12 @@
 class Persona { 
       //ESTA ES LA CLASE PADRE
-    static contadorObjetosPersona = 10; //ATRIBUTO DE CLASE
+    static contadorObjetosPersona = 0; //ATRIBUTO DE CLASE
 
     constructor(nombre, apellido){
         this._nombre = nombre; 
         this._apellido = apellido;
+        Persona.contadorObjetosPersona++;
+        console.log("Se incrementa contador :" + Persona.contadorObjetosPersona);
     }
 
     get nombre(){
@@ -87,5 +89,7 @@ Empleado.saludar2(empleado1);
         // si queremos usarla por medio de un objeto , en este caso persona1
 console.log(persona1.contadorObjetosPersona);
 console.log(Persona.contadorObjetosPersona);
-console.log(Empleado.contadorObjetosPersona); 
+
 //Esto quiere decir que las clases hijas tambien heredan los atributos
+console.log(Empleado.contadorObjetosPersona); 
+
