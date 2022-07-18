@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina con video</title>
+</head>
+<body>
+        <div class="hero"> 
+
+            <video autoplay loop muted plays-inline id="backVideo">
+                <source src="video3.mp4" type="video/mp4"> 
+            </video>
+
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <div class="sidebar">
+                <div class="text-box">
+                    <h1>Cucatto Marcos</h1>
+                    <h4>Diseñador Web</h4>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="content">
+                <h1>Cordoba</h1>
+                <p>Estudio y vivo en cordoba actualmente</p>
+                <div class="btn" id="playBtn">
+                    <img src="play.png" alt="imagen Play" id="icon">Mirar Video
+                </div>
+            </div>
+        </div>
+
+<script>
+    var backVideo = document.getElementById('backVideo');
+    var playBtn = document.getElementById('playBtn');
+    var icon = document.getElementById('icon');
+
+    playBtn.onclick = function(){
+        backVideo.style.display = "block";
+        
+        if(backVideo.paused){
+            backVideo.play();
+            icon.src = "pause.png";
+        }
+        else{
+            backVideo.pause();
+            icon.src = "play.png";
+        }
+    }
+</script>
+
+
+</body>
+</html>
