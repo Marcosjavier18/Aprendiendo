@@ -1,0 +1,18 @@
+<!-- Hay que tener cuidado porque sobreescribe por completo cualquier informacion previa que tengamos a la escritura del mensaje-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Manejo DODM con JavaScript</title>
+</head>
+<body>
+    <h1 id="titulo">Manejo Dom con js</h1>
+    <button onclick="mostrar()">Mostrar</button>
+    <br/>
+    <script>
+        function mostrar(){
+        document.getElementById("titulo").innerHTML  += "<br/>New title";
+    }
+    </script>
+</body>
+</html>

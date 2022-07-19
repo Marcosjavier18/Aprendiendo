@@ -1,0 +1,40 @@
+<!-- Vamos a ver una simplificacion del ejercicios. si tenemos todos los elementos
+Delegacion de evento o parametro useCapture
+es una forma de simplifcar el codigo del formulario aplicando nuestros estilos q venimos trabajando
+nos sirve para propagar la informacion q hayamos configurado en el elemento mas externo y propagarlo al elemento
+mas interno .
+podemos delegar el manejo de eventos del formulario a los elementos mas internos de tipo input solamente agregando True.
+si ponemos false no detecta los cambios -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo DOM con JS</title>
+</head>
+<body>
+    
+    <h1 id='titulo'>Manejo DOM con JavaScript</h1>
+    <br/>
+    <form id="forma">
+    Nombre: <input type="text" id="nombre"/>
+    <br/><br/>
+    Apellido: <input type="text" id="apellido"/>
+    </form>
+    <script>
+        const forma = document.getElementById("forma");
+
+
+        forma.addEventListener("focus",(evento)=>{
+        evento.target.style.background = "green";
+        },true);
+        forma.addEventListener('blur', (evento)=>{
+        evento.target.style.background = "pink"
+        },true);
+    
+    </script>
+
+</body>
+</html> 

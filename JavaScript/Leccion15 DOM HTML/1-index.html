@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo DOM con javascript</title>
+</head>
+<body>
+    
+    <h1 id="cabecero">Ejemplo DOM con JavaScript</h1>
+    <p id="parrafo1">Saludos!</p>
+    <p id="parrafo2">Parrafo 2</p>
+    
+    <script>
+        let cabecero = document.getElementById("cabecero");
+        console.log(`"valor cabecero:${cabecero.innerHTML}`);
+        let parrafo = document.getElementById("parrafo");
+        console.log(`valor parrafo: ${parrafo.innerHTML}`);
+        parrafo.innerHTML = "Nuevo valor";
+        cabecero.innerHTML = " Titulo: Marcos JS";
+        
+    </script>
+    <!-- let cabecero = document.getElementById("cabecero") nos regresa un objeto h1.
+    .innerHTML sirve para acceder al valor del texto. inner significa interno
+si sacamos el .innerHTML accedemos como si fuese un Objeto . -->
+
+</body>
+</html>

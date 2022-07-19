@@ -1,0 +1,24 @@
+<!-- de manera externa usamos comilla doble e internamente usamos comillas simples 
+si hacemos click sobre el titulo se cambia, pero no es recomendable . lo normal es que
+esta informacion este dentro de un metodo
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Manejo DODM con JavaScript</title>
+</head>
+<body>
+    <!-- <h1 onclick="this.innerHTML='Nuevo titulo'"id="titulo">Manejo Dom con js</h1> -->
+    <h1 onclick="cambiarTexto(this)">Manejo Dom con js</h1>
+    <br/>
+    <script>
+        function cambiarTexto(titulo){
+            console.log(titulo);
+            console.log(titulo.innerHTML);
+            titulo.innerHTML = "Cambiamos el titulo de nuevo";
+            console.log(titulo.innerHTML);
+        }
+    </script>
+</body>
+</html>

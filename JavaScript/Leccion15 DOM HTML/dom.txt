@@ -1,0 +1,5 @@
+DOM = Document object model.
+Cada elemento forma un elemento html. 
+Cada elemento es un objeto cuando se trabaja en javascript, cada uno contiene atributos o propiedades y tambien metodos,
+asique vamos a poder acceder a cada atributo o metodo de cada elemento. Y por lo tanto podemos agregar,eliminar o modificar elementos.
+El <script> debe estar siempre despues del objeto que queremos usar.

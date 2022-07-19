@@ -1,0 +1,29 @@
+<!-- nomousedown = cuando damos click sobre un elemento
+onmouseup = cuando soltamos el click sobre cierto elemento
+onmouseclick-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Manejo DODM con JavaScript</title>
+</head>
+<body>
+    <h1 id="titulo" onmousedown="rojo(this)" onmouseup="azul(this)"
+    onclick="verde(this)">Manejo Dom con js</h1>
+    <br/>
+    <script>
+        function rojo(titulo){
+            console.log("Este es el evento mousedown rojo")
+            titulo.style.color = "red";
+        }
+        function azul(titulo){
+            console.log("Este es el evento mouseup azul")
+            titulo.style.color = "blue";
+        }
+        function verde(titulo){
+            console.log("Este es el evento mouseclick verde")
+            titulo.style.color = "green";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!-- lo vamos a querer usar cuando modificamos los campos de texto o de un formulario -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Manejo DODM con JavaScript</title>
+</head>
+<body>
+    <h1 id="titulo">Manejo Dom con js</h1>
+    <br/>
+    Nombre: <input type="text"  onchange="convertir(this)"/>
+    <script>
+        function convertir(nombreInput){
+          nombreInput.value = nombreInput.value.toUpperCase();
+        }
+    </script>
+</body>
+</html>

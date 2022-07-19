@@ -1,0 +1,31 @@
+<!-- este evento se ejecuta cuando se carga nuestra pagina web 
+carga un pequeño poop(cartelito), nos puede servir para revisar cuestiones cuando esta carga, por ejemplo podriamos revisar el idioma
+o si tiene habilitado el concepto de cookies.... -->
+<!-- las cookies se almacen en un archivo en el formato de llave valor , nos permite almacenar informacion en el navegador web, en este ejemplo
+solo revisamos si estan habilitadas para trabajarlas -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Manejo DODM con JavaScript</title>
+</head>
+<body onload="entrar()" >
+    <h1 id="titulo">Manejo Dom con js</h1>
+    <br/>
+    <div id="mostrar" ></div>
+    <script>
+    
+        function entrar(){
+            alert("Entrando a la pagina web");
+            let texto = " ";
+            if(navigator.cookieEnabled){
+                texto = "Cookies estan habilitadas";
+            }
+            else{
+                texto = "Las cookies estan deshabilitadas";
+            }
+            document.getElementById("mostrar").innerHTML = texto;
+        }
+    </script>
+</body>
+</html>

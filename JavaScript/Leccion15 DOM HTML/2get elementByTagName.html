@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo DOM con javascript</title>
+</head>
+<body>
+    
+    <h1 id="cabecero">Ejemplo DOM con JavaScript</h1>
+    <p id="parrafo1">Saludos!</p>
+    <p id="parrafo2">Parrafo 2</p>
+    <script>
+        let parrafos = document.getElementsByTagName('p');
+        console.log( `No. parrafos: ${parrafos.length}`);
+        for (let i=0; i<parrafos.length;i++){
+            console.log(`${i} - ${parrafos[i].innerHTML}`);
+        }
+        let cabecero
+    </script>
+
+</body>
+</html>
